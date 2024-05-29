@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Case,,,,29-05-2024 11:53:05,29-05-2024 11:53:23,17.671s,FAILED
+,,,,,,,
+Test Cases/Add User,,,,29-05-2024 11:53:07,29-05-2024 11:53:18,11.451s,FAILED
+"response = sendRequest(findTestObject(""Add User""))",,,,29-05-2024 11:53:09,29-05-2024 11:53:18,8.408s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,29-05-2024 11:53:18,29-05-2024 11:53:18,0.228s,FAILED
+,,,,,,,
+Test Cases/Delete User,,,,29-05-2024 11:53:18,29-05-2024 11:53:20,1.565s,PASSED
+"response = sendRequest(findTestObject(""Delete User""))",,,,29-05-2024 11:53:19,29-05-2024 11:53:20,1.139s,PASSED
+"verifyResponseStatusCode(response, 204)",,,,29-05-2024 11:53:20,29-05-2024 11:53:20,0.006s,PASSED
+,,,,,,,
+Test Cases/Get All User,,,,29-05-2024 11:53:20,29-05-2024 11:53:21,1.744s,PASSED
+"response = sendRequest(findTestObject(""Get All User""))",,,,29-05-2024 11:53:20,29-05-2024 11:53:21,0.910s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,29-05-2024 11:53:21,29-05-2024 11:53:21,0.022s,PASSED
+"verifyElementPropertyValue(response, ""data[0].email"", ""michael.lawson@reqres.in"")",,,,29-05-2024 11:53:21,29-05-2024 11:53:21,0.559s,PASSED
+,,,,,,,
+Test Cases/Update User,,,,29-05-2024 11:53:21,29-05-2024 11:53:23,1.664s,PASSED
+"response = sendRequest(findTestObject(""Update User""))",,,,29-05-2024 11:53:22,29-05-2024 11:53:23,1.248s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,29-05-2024 11:53:23,29-05-2024 11:53:23,0.011s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""morpheus"")",,,,29-05-2024 11:53:23,29-05-2024 11:53:23,0.138s,PASSED

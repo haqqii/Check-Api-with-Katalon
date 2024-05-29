@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Case" time="14.801" tests="4" failures="0" errors="0">
+   <testsuite name="Test Case" tests="4" failures="0" errors="0" time="14.801" skipped="0" timestamp="29-05-2024T11:54:14" hostname="ASUS - DESKTOP-3PO1S4D" id="Test Suites/Test Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Katalon Studio\\PT DOT\\Reports\\20240529_115356\\Test Case\\20240529_115356"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Katalon Studio\\PT DOT\\Reports\\20240529_115356\\Test Case\\20240529_115356\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - DESKTOP-3PO1S4D"/>
+         <property name="hostAddress" value="192.168.100.3"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+      </properties>
+      <testcase name="Test Cases/Add User" time="8.964" classname="Test Cases/Add User" status="PASSED">
+         <system-out><![CDATA[29-05-2024T11:54:15 - [TEST_CASE][PASSED] - Test Cases/Add User: Test Cases/Add User
+
+29-05-2024T11:54:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Add User")): Send request successfully
+
+29-05-2024T11:54:23 - [MESSAGE][INFO] - HAR: C:\Users\ASUS\Katalon Studio\PT DOT\Reports\20240529_115356\Test Case\20240529_115356\requests\main\0.har
+
+29-05-2024T11:54:24 - [MESSAGE][PASSED] - Send request successfully
+
+29-05-2024T11:54:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+29-05-2024T11:54:24 - [MESSAGE][PASSED] - Verify response status code successfully
+
+29-05-2024T11:54:24 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "morpheus"): Verify element property value successfully
+
+29-05-2024T11:54:24 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete User" time="1.809" classname="Test Cases/Delete User" status="PASSED">
+         <system-out><![CDATA[29-05-2024T11:54:24 - [TEST_CASE][PASSED] - Test Cases/Delete User: Test Cases/Delete User
+
+29-05-2024T11:54:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Delete User")): Send request successfully
+
+29-05-2024T11:54:26 - [MESSAGE][INFO] - HAR: C:\Users\ASUS\Katalon Studio\PT DOT\Reports\20240529_115356\Test Case\20240529_115356\requests\main\1.har
+
+29-05-2024T11:54:26 - [MESSAGE][PASSED] - Send request successfully
+
+29-05-2024T11:54:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+29-05-2024T11:54:26 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get All User" time="1.233" classname="Test Cases/Get All User" status="PASSED">
+         <system-out><![CDATA[29-05-2024T11:54:26 - [TEST_CASE][PASSED] - Test Cases/Get All User: Test Cases/Get All User
+
+29-05-2024T11:54:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Get All User")): Send request successfully
+
+29-05-2024T11:54:27 - [MESSAGE][INFO] - HAR: C:\Users\ASUS\Katalon Studio\PT DOT\Reports\20240529_115356\Test Case\20240529_115356\requests\main\2.har
+
+29-05-2024T11:54:27 - [MESSAGE][PASSED] - Send request successfully
+
+29-05-2024T11:54:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+29-05-2024T11:54:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+29-05-2024T11:54:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].email", "michael.lawson@reqres.in"): Verify element property value successfully
+
+29-05-2024T11:54:27 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Update User" time="1.707" classname="Test Cases/Update User" status="PASSED">
+         <system-out><![CDATA[29-05-2024T11:54:27 - [TEST_CASE][PASSED] - Test Cases/Update User: Test Cases/Update User
+
+29-05-2024T11:54:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Update User")): Send request successfully
+
+29-05-2024T11:54:29 - [MESSAGE][INFO] - HAR: C:\Users\ASUS\Katalon Studio\PT DOT\Reports\20240529_115356\Test Case\20240529_115356\requests\main\3.har
+
+29-05-2024T11:54:29 - [MESSAGE][PASSED] - Send request successfully
+
+29-05-2024T11:54:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+29-05-2024T11:54:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+29-05-2024T11:54:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "morpheus"): Verify element property value successfully
+
+29-05-2024T11:54:29 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-05-2024T11:54:14 - [TEST_SUITE][PASSED] - Test Case: Test Cases/Update User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

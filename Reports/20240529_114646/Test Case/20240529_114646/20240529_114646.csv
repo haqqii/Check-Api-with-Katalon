@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Case,,,,29-05-2024 11:47:10,29-05-2024 11:47:25,14.493s,ERROR
+,,,,,,,
+Test Cases/Add User,,,,29-05-2024 11:47:11,29-05-2024 11:47:20,9.119s,ERROR
+"response = sendRequest(findTestObject(""Add User""))",,,,29-05-2024 11:47:13,29-05-2024 11:47:20,7.066s,PASSED
+"verifyResponseCodeStatus(response, 200)",,,,29-05-2024 11:47:20,29-05-2024 11:47:20,0.267s,ERROR
+,,,,,,,
+Test Cases/Delete User,,,,29-05-2024 11:47:20,29-05-2024 11:47:22,1.344s,ERROR
+"response = sendRequest(findTestObject(""Delete User""))",,,,29-05-2024 11:47:21,29-05-2024 11:47:22,0.961s,PASSED
+"verifyResponseCodeStatus(response, 204)",,,,29-05-2024 11:47:22,29-05-2024 11:47:22,0.034s,ERROR
+,,,,,,,
+Test Cases/Get All User,,,,29-05-2024 11:47:22,29-05-2024 11:47:23,1.134s,ERROR
+"response = sendRequest(findTestObject(""Get All User""))",,,,29-05-2024 11:47:22,29-05-2024 11:47:23,0.601s,PASSED
+"verifyResponseCodeStatus(response, 200)",,,,29-05-2024 11:47:23,29-05-2024 11:47:23,0.149s,ERROR
+,,,,,,,
+Test Cases/Update User,,,,29-05-2024 11:47:23,29-05-2024 11:47:25,1.536s,ERROR
+"response = sendRequest(findTestObject(""Update User""))",,,,29-05-2024 11:47:23,29-05-2024 11:47:25,1.203s,PASSED
+"verifyResponseCodeStatus(response, 200)",,,,29-05-2024 11:47:25,29-05-2024 11:47:25,0.023s,ERROR
